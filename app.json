@@ -1,0 +1,30 @@
+{
+  "name": "newmorning",
+  "description": "newmorning",
+  "keywords": [
+    "newmorning"
+  ],
+  "env": {
+    "PROTOCOL": {
+      "description": "协议类型vmess，请勿修改",
+      "value": "vmess",
+      "required": true
+    },
+    "UUID": {
+      "description": "设置一个UUID密码",
+      "value": "2e91f38d-bc03-4691-befa-030682a717d0",
+      "required": false
+    },
+    "WS_PATH": {
+      "description": "websocket路径",
+      "value": "/hjkl",
+      "required": true
+    }
+  },
+  "website": "",
+  "repository": "",
+  "stack": "container",
+  "features": [
+    "runtime-dyno-metadata"
+  ]
+}
